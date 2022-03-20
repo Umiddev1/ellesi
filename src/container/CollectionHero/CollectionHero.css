@@ -1,0 +1,20 @@
+.collectionhero {
+  width: 100%;
+  height: 307px;
+  background-image: url("../../assets/img/HeroImg/collectiohero.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.collectionhero__title {
+  font-size: 50px;
+  color: #333;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+  position: relative;
+  top: 90px;
+}
+.colldata__info-des {
+  position: relative;
+}

@@ -1,0 +1,62 @@
+.headertop {
+  padding: 14px 0;
+}
+.headertop::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #ECECEC;
+  margin-top: 5px;
+}
+.headertop__list {
+  display: flex;
+}
+.headertop__item {
+  margin-left: 15px;
+}
+.headertop__item:nth-child(1) {
+  margin-left: 0;
+}
+.headertop__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headertop__link {
+  font-size: 20px;
+  color: #000;
+}
+.headertop__call {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+.headertop__langs {
+  position: relative;
+}
+.headertop__lang-text {
+  font-size: 12px;
+  cursor: pointer;
+}
+.headertop__lang-list {
+  width: 160px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 15px;
+  box-shadow: -1px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  position: absolute;
+  top: 28px;
+  background-color: #fff;
+  z-index: 5;
+  left: -100px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.headertop__lang:hover .headertop__lang-list {
+  opacity: 1;
+  visibility: visible;
+}
+.lang-list-text {
+  margin-bottom: 10px;
+  cursor: pointer;
+}

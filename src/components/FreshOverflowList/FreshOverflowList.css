@@ -1,0 +1,54 @@
+.freshover__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.freshover__item {
+  height: 208px;
+  overflow: hidden;
+  position: relative;
+  width: 370px;
+}
+.freshover__title {
+  font-size: 160%;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 12px 0;
+  position: absolute;
+  z-index: 5;
+  left: 20px;
+}
+.freshover__text {
+  position: absolute;
+  top: 105px;
+  left: 20px;
+  color: #1b1919;
+  font-weight: 700;
+  line-height: 28.275px;
+  margin: 6px 0;
+  z-index: 5;
+}
+.freshover__spn {
+  color: #fc6b66;
+}
+
+.freshover__texts {
+  display: block;
+  font-size: 100%;
+  font-weight: 600;
+  line-height: 5;
+  margin: 6px 0;
+  position: absolute;
+  top: 135px;
+  left: 20px;
+  z-index: 5;
+}
+.freshover__img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.freshover__item:hover .freshover__img {
+  transform: scale(1.1);
+}

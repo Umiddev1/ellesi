@@ -1,0 +1,26 @@
+.rateddata__titles {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 285px;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+.rateddata__title {
+  font-weight: 800;
+  letter-spacing: 0;
+  font-size: 23px;
+}
+.rateddata__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 175px;
+}
+.rateddata__des {
+  display: flex;
+}
+.rateddata__texts {
+  margin-left: 10px;
+}
+.rateddata__item {
+  margin-bottom: 20px;
+}

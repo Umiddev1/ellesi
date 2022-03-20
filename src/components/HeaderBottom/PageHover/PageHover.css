@@ -1,0 +1,20 @@
+.pagehover {
+  position: absolute;
+  width: 680px;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  box-shadow: -1px 5px 17px 0px rgba(34, 60, 80, 0.2);
+  top: 42px;
+  visibility: hidden;
+  transform: translateY(50px);
+  opacity: 0;
+  z-index: 99;
+  transition: all 0.4s ease;
+}
+.pagehover__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

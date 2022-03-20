@@ -1,0 +1,15 @@
+.partnerdata__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+.partnerdata__img {
+  cursor: pointer;
+  transition: opacity 0.4s ease;
+  width: 170px;
+  height: 130px;
+}
+.partnerdata__img:hover {
+  opacity: 0.5;
+}

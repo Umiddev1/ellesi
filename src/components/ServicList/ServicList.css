@@ -1,0 +1,26 @@
+.serviclists {
+  margin-bottom: 50px;
+}
+.serviclist {
+  display: flex;
+}
+.serviclist__item {
+  text-align: center;
+  margin-left: 115px;
+}
+.serviclist__item:nth-child(1) {
+  margin-left: 40px;
+}
+.serviclist__icon {
+  font-size: 50px;
+  color: #6bad0d;
+  margin-bottom: 20px;
+}
+.serviclist__title {
+  font-size: 21px;
+  color: #222222;
+  margin-bottom: 5px;
+}
+.serviclist__text {
+  color: #878787;
+}

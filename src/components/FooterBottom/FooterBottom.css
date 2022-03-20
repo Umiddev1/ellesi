@@ -1,0 +1,24 @@
+.footer__bottom {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copy {
+  padding: 20px 0;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+}
+.footerbottom__link {
+  color: #f76b6a;
+}
+@media (max-width: 568px) {
+  .footer__copy {
+      padding: 0 20px;
+  }
+}
