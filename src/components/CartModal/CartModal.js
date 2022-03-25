@@ -1,9 +1,16 @@
-import React,{ useState } from 'react'
+import React,{ useState, useContext } from 'react'
 import '../AccounModal/AccountModal.css';
 import './CartModal.css';
 import fruit from '../../assets/img/shophoverimg/fruit.jpg';
+import { CartContext } from '../../store/CartContext';
 function CartModal({cartState, setCartState}) {
   const [count, setCount] = useState(0)
+  const {carts, setCarts} = useContext(CartContext)
+  const [isNone, setIsNone] = useState(false)
+  function handleClick(data) {
+    const filtered = carts.filter(items => items.id !== data.id)
+    setCarts(filtered)
+  } 
   return (
     <div className={cartState ? "cartmodal-bg cm-block" : "cartmodal-bg"}>
       <div className={cartState ? "cartmodal ctr" :"cartmodal"}>
@@ -13,18 +20,26 @@ function CartModal({cartState, setCartState}) {
         </div>
         <div className="cartmodal__body">
           <div className="cartmodal__product">
-            <img className="cartmodal__img" src={fruit} alt="fruit" />
-            <div className="cartmodal__des">
-              <p className="cartmodal__text">Pinkerton Avocado</p>
-              <p className="cartmodal__subtext">500G</p>
-              <p className="cartmodal__price">$5.00</p>
-            </div>
-            <div className="cartmodal__counts">
-              <span className="cartmodal__spn">{count}</span>
-              <button className="cartmodal__next" onClick={() => setCount(count + 1)}>+</button>
-              <button className="cartmodal__prev" onClick={() => setCount(count - 1)}>-</button>
-              <p className="cartmodal__remove">Remove</p>
-            </div>
+            {
+              carts.map((data) => (
+                <div key={data.id} className= "cartmodal__inner">
+                  <div className="cartmodal__imgss">
+                  <img className="cartmodal__img" src={data.mainImg} alt="mainimg" />
+                    <div className="cartmodal__des">
+                      <p className="cartmodal__text">{data.title}</p>
+                      <p className="cartmodal__subtext">{data.price}</p>
+                    </div>
+                  </div>
+                <div className="cartmodal__counts">
+                  <span className="cartmodal__spn">{count}</span>
+                  <button className="cartmodal__next" onClick={() => setCount(count + 1)}>+</button>
+                  <button className="cartmodal__prev" onClick={() => setCount(count - 1)}>-</button>
+                  <p onClick={() => handleClick(data)} className="cartmodal__remove">Remove</p>
+                </div>
+                </div>
+                
+              ))
+            }
           </div>
           <div className="cartmodal__textarea">
             <p className="cartmodal__textarea-text">Special instructions for seller</p>

@@ -50,16 +50,22 @@
   height: 80px;
   border-radius: 50%;
 }
-.cartmodal__product {
+.cartmodal__imgss {
   display: flex;
   align-items: center;
+}
+.cartmodal__inner {
+  display: flex;
   justify-content: space-between;
+  margin-bottom: 25px;
 }
 .cartmodal__text {
   font-size: 16px;
   color: #333;
-
 } 
+.cartmodal__des {
+  margin-left: 10px;
+}
 .cartmodal__subtext {
   font-size: 14px;
   color: #333;
@@ -94,7 +100,7 @@
 .cartmodal__prev {
   position: absolute;
   border: 1px solid #ccc;
-  bottom: 20px;
+  bottom: 40px;
   font-size: 15px;
   padding: 0px 5px;
   background-color: transparent;
@@ -106,6 +112,7 @@
   text-decoration: underline;
   position: relative;
   top: 10px;
+  cursor: pointer;
 }
 .cartmodal__textarea {
   margin-top: 50px;
@@ -175,4 +182,7 @@
 }
 .msg__btn:hover {
   background-color: #6aad0dd3;
+}
+.none {
+  display: none;
 }

@@ -5,6 +5,8 @@
 }
 .productdata__item {
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 .productdata__des {
   position: relative;
@@ -59,4 +61,32 @@
   top: 10px;
   right: 20px;
   color: rgba(0, 0, 0, 0.568);
+  z-index: 999;
+}
+.productdata__hearts {
+  position: absolute;
+  font-size: 30px;
+  top: 10px;
+  right: 20px;
+  color:#f76b6a;
+  z-index: 9999;
+}
+.productdata__sale {
+  font-size: 13px;
+  color: #555;
+}
+.productdata__price {
+  font-size: 18px;
+  color: #f76b6a;
+}
+.productdata__title {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  margin-top: 20px;
+  color: #000;
+}
+.bxs-heart {
+  color: #f76b6a;
 }

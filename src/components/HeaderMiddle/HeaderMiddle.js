@@ -1,15 +1,19 @@
 import React,{ useContext, useState } from 'react'
 import './HeaderMiddle.css';
 import Logo from '../../assets/img/Logo.png'
-import { Link } from 'react-router-dom';
 import { StoreContext } from '../../store/store';
 import AccountModal from '../AccounModal/AccountModal';
 import CartModal from '../CartModal/CartModal';
+import { CartContext } from '../../store/CartContext';
+import { Link } from 'react-router-dom';
+import { LikeContext } from '../../store/LikeContext';
 function HeaderMiddle() {
   const value = useContext(StoreContext)
   const {langRep} = value
   const [state, setState] = useState(false)
   const [cartState, setCartState] = useState(false)
+  const {carts} = useContext(CartContext)
+  const {likeArr, setLikeArr} = useContext(LikeContext)
   function handleClick() {
     setState(true)
   }
@@ -31,8 +35,8 @@ function HeaderMiddle() {
         </div>
         <div className='headermiddle__icons'>
           <button onClick={handleClick} className="headermiddle__btns"><i className='bx bx-user-circle'></i></button>
-          <Link to="/likepage" className="headermiddle__btns"><i className='bx bx-heart'></i> <span className="headermiddle__spn">0</span></Link>
-          <button onClick={CartClick} className="headermiddle__btns"><i className='bx bx-cart-alt'></i> <span className="headermiddle__spn spn-animation">9</span></button>
+          <Link to="/likepage" className="headermiddle__btns"><i className='bx bx-heart'></i> <span className="headermiddle__spn">{likeArr.length}</span></Link>
+          <button onClick={CartClick} className="headermiddle__btns"><i className='bx bx-cart-alt'></i> <span className="headermiddle__spn spn-animation">{carts.length}</span></button>
         </div>
         </div>
         <AccountModal state={state} setState={setState} />

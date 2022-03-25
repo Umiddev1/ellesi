@@ -16,7 +16,7 @@ function RatedData() {
       <ul className="rateddata__list"> 
         {
           data.map((info) => (
-            <li className="rateddata__item">
+            <li key={info.id} className="rateddata__item">
               <div className="rateddata__des">
                 <img src={info.img} alt="info-img" />
                 <div className="rateddata__texts">
@@ -31,7 +31,7 @@ function RatedData() {
       <ul className="rateddata__list"> 
         {
           bestSilling.map((info) => (
-            <li className="rateddata__item">
+            <li key={info.id} className="rateddata__item">
               <div className="rateddata__des">
                 <img src={info.img} alt="info-img" />
                 <div className="rateddata__texts">
@@ -46,7 +46,7 @@ function RatedData() {
       <ul className="rateddata__list"> 
         {
           onSale.map((info) => (
-            <li className="rateddata__item">
+            <li key={info.id} className="rateddata__item">
               <div className="rateddata__des">
                 <img src={info.img} alt="info-img" />
                 <div className="rateddata__texts">

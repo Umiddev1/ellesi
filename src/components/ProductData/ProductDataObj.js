@@ -4,14 +4,16 @@ export const fruitData = [
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/mini-plum-tomato_360x.jpg?v=1565592563",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/mini-plum-tomato-3_360x.jpg?v=1565592563",
     title:"Plum Tomato",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true,
   },
   {
     id:2,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado_360x.jpg?v=1565594363",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado-1_360x.jpg?v=1565594363",
     title:"Pinkerton Avocado",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:3,
@@ -19,14 +21,16 @@ export const fruitData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/red-pithaya-with-white-pulp-1_360x.jpg?v=1565594423",
     title:"Red Pithaya",
     sale:"$20.00",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:4,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/chiquita-bananas_360x.jpg?v=1565594302",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_360x.jpg?v=1565594302",
     title:"Bananas",
-    price:"$18.00"
+    price:"$18.00",
+    completed:true
   },
   {
     id:5,
@@ -34,7 +38,8 @@ export const fruitData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/fresh-strawberries-2_360x.jpg?v=1565591604",
     title:"Fresh Strawberries",
     sale:"$20.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:6,
@@ -42,14 +47,16 @@ export const fruitData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_360x.jpg?v=1565592922",
     title:"Violet Cauliflower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:7,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants-1_360x.jpg?v=1565594063",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants_360x.jpg?v=1565594063",
     title:"Black Eggplants",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:8,
@@ -57,7 +64,8 @@ export const fruitData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/fresh-organic-lemon-almaverde-bio_360x.jpg?v=1565592743",
     title:"Organic Lemon",
     sale:"$25.00",
-    price:"$20.00"
+    price:"$20.00",
+    completed:true
   },
 ]
 
@@ -68,21 +76,24 @@ export const vegetablesData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/red-pithaya-with-white-pulp-1_50x50.jpg?v=1565594423",
     title:"Red Pithaya",
     sale:"$20.00",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:2,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado_50x50.jpg?v=1565594363",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado-1_50x50.jpg?v=1565594363",
     title:"Pinkerton Avocado",
-    price:"$5.00"
+    price:"$5.00",
+    completed:true
   },
   {
     id:3,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/chiquita-bananas_50x50.jpg?v=1565594302",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_50x50.jpg?v=1565594302",
     title:"Bananas",
-    price:"$18.00"
+    price:"$18.00",
+    completed:true
   },
   {
     id:4,
@@ -90,14 +101,16 @@ export const vegetablesData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/2cc67697-7856-4b5c-8f04-fe5cd3112e2b_50x50.jpg?v=1565594242",
     title:"Peanut Butter",
     sale:"$12.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:5,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/0030f6d1-cef5-4f5c-9ec4-e4d807b30267_50x50.jpg?v=1565594181",
     title:"Fresh Strawberries",
     sale:"$20.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:6,
@@ -105,14 +118,16 @@ export const vegetablesData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/2e0e87f2-4fdf-4ca7-912c-47e11eadd420_50x50.jpg?v=1565594123",
     title:"Basil Pesto",
     sale:"$10.00",
-    price:"$8.00"
+    price:"$8.00",
+    completed:true
   },
   {
     id:7,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants-1_50x50.jpg?v=1565594063",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants_50x50.jpg?v=1565594063",
     title:"Black Eggplants",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:8,
@@ -120,7 +135,8 @@ export const vegetablesData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_50x50.jpg?v=1565592922",
     title:"Visolet Caulifkower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
 ]
 
@@ -130,14 +146,16 @@ export const milkCreamData = [
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/chiquita-bananas_360x.jpg?v=1565594302",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_50x50.jpg?v=1565594302",
     title:"Bananas",
-    price:"$18.00"
+    price:"$18.00",
+    completed:true
   },
   {
     id:2,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/0030f6d1-cef5-4f5c-9ec4-e4d807b30267_50x50.jpg?v=1565594181",
     title:"Butter Pista",
     sale:"$18.00",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:3,
@@ -145,14 +163,16 @@ export const milkCreamData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/2e0e87f2-4fdf-4ca7-912c-47e11eadd420_50x50.jpg?v=1565594123",
     title:"Basil Pesto",
     sale:"$10.00",
-    price:"$8.00"
+    price:"$8.00",
+    completed:true
   },
   {
     id:4,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants-1_50x50.jpg?v=1565594063",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants_50x50.jpg?v=1565594063",
     title:"Black Eggplants",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:5,
@@ -160,7 +180,8 @@ export const milkCreamData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_50x50.jpg?v=1565592922",
     title:"Violet Cauliflower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:6,
@@ -168,14 +189,16 @@ export const milkCreamData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_360x.jpg?v=1565592922",
     title:"Violet Cauliflower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:7,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/orange-cauliflower_50x50.jpg?v=1565592622",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/orange-cauliflower-2_50x50.jpg?v=1565592622",
     title:"Orange Cauliflower",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:8,
@@ -183,7 +206,8 @@ export const milkCreamData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/952c5f3d-e89a-4146-8dae-5b904af6ad49_50x50.jpg?v=1565592383",
     title:"Sorbet Ice Cream",
     sale:"$15.00",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
 ]
 
@@ -193,14 +217,16 @@ export const bananaData = [
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/mini-plum-tomato_360x.jpg?v=1565592563",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/mini-plum-tomato-3_360x.jpg?v=1565592563",
     title:"Plum Tomato",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:2,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado_360x.jpg?v=1565594363",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado-1_360x.jpg?v=1565594363",
     title:"Pinkerton Avocado",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:3,
@@ -208,14 +234,16 @@ export const bananaData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/red-pithaya-with-white-pulp-1_360x.jpg?v=1565594423",
     title:"Red Pithaya",
     sale:"$20.00",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:4,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/chiquita-bananas_360x.jpg?v=1565594302",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_360x.jpg?v=1565594302",
     title:"Bananas",
-    price:"$18.00"
+    price:"$18.00",
+    completed:true
   },
   {
     id:5,
@@ -223,7 +251,8 @@ export const bananaData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/fresh-strawberries-2_360x.jpg?v=1565591604",
     title:"Fresh Strawberries",
     sale:"$20.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:6,
@@ -231,14 +260,16 @@ export const bananaData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_360x.jpg?v=1565592922",
     title:"Violet Cauliflower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:7,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants-1_360x.jpg?v=1565594063",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants_360x.jpg?v=1565594063",
     title:"Black Eggplants",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:8,
@@ -246,7 +277,8 @@ export const bananaData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/fresh-organic-lemon-almaverde-bio_360x.jpg?v=1565592743",
     title:"Organic Lemon",
     sale:"$25.00",
-    price:"$20.00"
+    price:"$20.00",
+    completed:true
   },
 ]
 
@@ -257,21 +289,24 @@ export const seaFoodData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/red-pithaya-with-white-pulp-1_50x50.jpg?v=1565594423",
     title:"Red Pithaya",
     sale:"$20.00",
-    price:"$15.00"
+    price:"$15.00",
+    completed:true
   },
   {
     id:2,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado_50x50.jpg?v=1565594363",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/pinkerton-avocado-1_50x50.jpg?v=1565594363",
     title:"Pinkerton Avocado",
-    price:"$5.00"
+    price:"$5.00",
+    completed:true
   },
   {
     id:3,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/chiquita-bananas_360x.jpg?v=1565594302",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/54d367b3-614b-4208-bfdb-b9a4e52cdeb9_50x50.jpg?v=1565594302",
     title:"Bananas",
-    price:"$18.00"
+    price:"$18.00",
+    completed:true
   },
   {
     id:4,
@@ -279,14 +314,16 @@ export const seaFoodData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/2cc67697-7856-4b5c-8f04-fe5cd3112e2b_50x50.jpg?v=1565594242",
     title:"Peanut Butter",
     sale:"$12.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
   {
     id:5,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/0030f6d1-cef5-4f5c-9ec4-e4d807b30267_50x50.jpg?v=1565594181",
     title:"Butter Pista",
     sale:"$18.00",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:6,
@@ -294,14 +331,16 @@ export const seaFoodData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/2e0e87f2-4fdf-4ca7-912c-47e11eadd420_50x50.jpg?v=1565594123",
     title:"Basil Pesto",
     sale:"$10.00",
-    price:"$8.00"
+    price:"$8.00",
+    completed:true
   },
   {
     id:7,
     mainImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants-1_360x.jpg?v=1565594063",
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/organic-round-black-eggplants_360x.jpg?v=1565594063",
     title:"Black Eggplants",
-    price:"$12.00"
+    price:"$12.00",
+    completed:true
   },
   {
     id:8,
@@ -309,7 +348,8 @@ export const seaFoodData = [
     backImg:"https://cdn.shopify.com/s/files/1/0085/5618/3637/products/violet-cauliflower-3_360x.jpg?v=1565592922",
     title:"Violet Cauliflower",
     sale:"$15.00",
-    price:"$10.00"
+    price:"$10.00",
+    completed:true
   },
 ]
 
